@@ -1,27 +1,17 @@
 ## 微信小程序找厕所（小明带你找厕所）
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard) ![](https://jaywcjlove.github.io/sb/lang/chinese.svg)
 
-直接扫描体验
-
-<img src="./readme/v1.0/bar_code.jpg" width = "200" height = "200" alt="图片名称" align=center />
-
-## 预览
-<img src="./readme/v2.0/1.PNG" width = "260" height = "450" style="margin-right:10px;" alt="图片名称" align=center/><img src="./readme/v2.0/2.PNG" style="margin-right:10px;" width = "260" height = "450" alt="图片名称" align=center/><img src="./readme/v2.0/3.PNG" style="margin-right:10px;" width = "260" height = "450" alt="图片名称" align=center/><img src="./readme/v2.0/4.PNG" style="margin-right:10px;" width = "260" height = "450" alt="图片名称" align=center/>
-
 ## 1 需求梳理
 ### 1.1 前言
-v1.0虽然已经满足实际需求，但是在ios和android两个平台显示的效果还是不尽相同，特别是地图上面路径规划功能。为此V2.0主要使用小程序自带的地图组件功能完善周围厕所撒点功能、点击marker功能、详细文字描述路径规划功能、以及小程序作者详细介绍
+使用小程序自带的地图组件功能完善周围厕所撒点功能、点击marker功能、详细文字描述路径规划功能、以及小程序作者详细介绍
 
 ### 1.2 功能需求
-**V1.0 版本**
 - [x] 打开直接定位
 - [x] 厕所信息已列表方式进行展示，按当前定位点最近进行排序
 - [x] 默认显示1000内最多是个公共厕所
 - [x] 列表显示厕所名称、位置信息和步行距离
 - [x] 列表页面具有刷新功能，以避免网络延迟，获取不到数据
 - [x] 显示列表进行点直接打开微信自带地图，可以根据选择是否显示路线和打开本地地图APP进行导航
-
-**V2.0 版本**
 - [x] 可以在地图上面展示所有厕所的位置，并且标记
 - [x] 直接在小程序端进行路径规划，ios和android一样
 - [x] 默认选择步行方式
@@ -84,9 +74,6 @@ v1.0虽然已经满足实际需求，但是在ios和android两个平台显示的
 
 ## 6 预览、上传、审核
 在编辑器左边的项目按钮，可以对正在开发的项目进行预览，这样就可以边开发边调试。
-<div  align="center">   
-<img src="./readme/v1.0/test.png" width = "500" height = "400" alt="图片名称" align=center />
-</div>
 
 之后开发完成可以进行上传，在小程序开发管理界面可以选择刚提交上来的项目作为体验版本，先让周围的朋友进体验下测试。注意，选了体验版本之后还需要在用户身份界面绑定体验者(可以绑定十个体验者)。如果在体验的过程发现bug，还可以进行修改，毕竟还没有上线。
 
@@ -97,8 +84,3 @@ v1.0虽然已经满足实际需求，但是在ios和android两个平台显示的
 总的来说，开发不难，特别是对于已经熟悉react、vue、angular的语法同学们。在开发之前先把官网的介绍看看，开发文档过一遍，大致有个印象。然后在网上找找与小程序相关的ui框架，结合使用，让后看看腾讯或者高德关于小程序的地图API文档。
 
 现在的功能是有点简单，但是已经够满足实际使用，后续有空也将会进行功能完善。
-
-## 项目打赏
-需要联合开发小伙伴也可以发邮件给我说，还有如果您觉得我的案例能帮助到您，您可以打赏作者一瓶汽水 
-
-<img src="./readme/v1.0/FullSizeRender.jpg" width = "190" height = "200" alt="图片名称" align=center />
