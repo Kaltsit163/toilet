@@ -1,0 +1,19 @@
+<view class="view">
+  <image class="logo" src="../../images/toilet.png"></image>
+  <view class="version">V 2.0</view>
+  <view class="title">寻味</view>
+  <view class="zan-panel">
+    <view class="zan-cell" bindtap="doAuthor">
+      <view class="zan-cell__bd">github</view>
+      <view class="zan-cell__ft">https://github.com/Tamamoran</view>
+    </view>
+    <view class="zan-cell" bindtap="doFunction">
+      <view class="zan-cell__bd">blog</view>
+      <view class="zan-cell__ft">https://tamamoran.github.io/toru/</view>
+    </view>
+    <view class="zan-cell" bindtap="doHelp">
+      <view class="zan-cell__bd">email</view>
+      <view class="zan-cell__ft">liuyejunnan@163.com</view>
+    </view>
+  </view>
+</view>
