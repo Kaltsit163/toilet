@@ -1,4 +1,4 @@
-## 微信小程序找厕所（小明带你找厕所）
+## 微信小程序找厕所(寻味)，其实就是找厕所
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard) ![](https://jaywcjlove.github.io/sb/lang/chinese.svg)
 
 ## 1 需求梳理
